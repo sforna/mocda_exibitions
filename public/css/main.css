@@ -1,0 +1,21 @@
+
+  .my-gallery figcaption {
+    display: none;
+  }
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "photo1 photo2 photo3" "textArea textArea photo3";
+  }
+  
+  .photo1 { grid-area: photo1; }
+  
+  .photo2 { grid-area: photo2; }
+  
+  .photo3 { grid-area: photo3; }
+  
+  .textArea { grid-area: textArea; }
